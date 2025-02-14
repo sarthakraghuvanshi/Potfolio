@@ -1,0 +1,24 @@
+.card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 30px 30px 30px 30px; /* Rounded corners */
+    overflow: hidden; /* Ensure content stays within rounded corners */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card img {
+    width: 70%;
+    height: auto;
+     /* Rounded corners for the top of the image */
+  }
+  
+  .card h3, .card p {
+    margin: 10px 0;
+    padding: 10PX 10px; /* Add padding to the text */
+  }

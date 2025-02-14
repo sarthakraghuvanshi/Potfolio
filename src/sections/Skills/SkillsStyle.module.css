@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container img {
+  width: 20px;
+}
+
+.skillList {
+  display: flex;
+  justify-content: center; /* Center the skill list */
+  align-items: center; /* Center the skill list */
+  flex-wrap: wrap;
+  row-gap: 40px;
+  max-width: 100%; /* Ensure it takes full width */
+}
+
+hr {
+  width: 100px;
+  height: 1px;
+  border: none;
+  background-color: var(--text-color);
+  margin: 30px auto;
+}
+
+@media (min-width: 800px) {
+  .skillList {
+    max-width: fit-content;
+    gap: 30px;
+  }
+
+  hr {
+    width: 300px;
+  }
+}
