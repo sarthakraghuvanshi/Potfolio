@@ -3,7 +3,7 @@ import Style from './ExperinceStyle.module.css'
 function Experince() {
   return (
     <section id="skills" className={Style.container}>
-   <h1 className="sectionTitle">Experince</h1>
+   <h1 className="sectionTitle">Experience </h1>
 
    <div className={Style.Experince}>
         <h3>Salesforce Summer Intern - CIBC Bank USA, Chicago IL, USA</h3>
