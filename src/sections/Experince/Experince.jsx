@@ -8,7 +8,7 @@ function Experince() {
    <div className={Style.Experince}>
         <h3>Salesforce Summer Intern - CIBC Bank USA, Chicago IL, USA</h3>
         <p><em><strong>Tools:</strong> Azure DevOps Tools, Process Builder, Lightning Flows</em></p>
-        <p className={Style.date}><em>June 2024 - Present</em></p>
+        <p className={Style.date}><em>June 2024 - August 2024</em></p>
         <br/>
         <p className={Style.description}>
           • Designed and implemented a comprehensive DevOps pipeline for Salesforce application development, automating code validation on every pull request, dynamically generating metadata XML files, and publishing them as artifacts for efficient delta deployments.<br />
