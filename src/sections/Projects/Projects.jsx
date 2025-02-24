@@ -16,7 +16,7 @@ function Projects() {
             <td className={styles.projectCell}>
               <ProjectCard
                 src={viberr}
-                link="https://github.com/SARTHAK9111/PropertyPlus.git"
+                link="https://github.com/sarthakraghuvanshi/PropertyPlus.git"
                 h3="Property Plus"
                 p="Streaming App"
                 description="Property Plus is a streaming app that allows users to watch and stream their favorite shows and movies."
@@ -25,7 +25,7 @@ function Projects() {
             <td className={styles.projectCell}>
               <ProjectCard
                 src={bu}
-                link="https://github.com/SARTHAK9111/KNN_Visualizar"
+                link="https://github.com/sarthakraghuvanshi/KNN_Visualizar"
                 h3="KNN Visualizer"
                 p="Algorithm Demonstration"
                 description="KNN Visualizer is a tool to demonstrate the K-Nearest Neighbors algorithm with interactive visualizations."
@@ -36,7 +36,7 @@ function Projects() {
             <td className={styles.projectCell}>
               <ProjectCard
                 src={fit}
-                link="https://github.com/SARTHAK9111/crawler"
+                link="https://github.com/sarthakraghuvanshi/crawler"
                 h3="Web Crawler"
                 p="Algorithm Demonstration"
                 description="Web Crawler is an algorithm demonstration project that showcases how web crawling works."
@@ -45,10 +45,11 @@ function Projects() {
             <td className={styles.projectCell}>
               <ProjectCard
                 src={hip}
-                link="https://github.com/SARTHAK9111/crawler"
-                h3="Web Crawler"
+                link="https://github.com/sarthakraghuvanshi/FullStackAPP.git"
+                h3="Job Application End-To-End Backend"
                 p="Algorithm Demonstration"
                 description="Web Crawler is an algorithm demonstration project that showcases how web crawling works."
+                
               />
             </td>
           </tr>
